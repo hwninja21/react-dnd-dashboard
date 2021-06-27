@@ -1,0 +1,60 @@
+
+  .zoom{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+  .zoomitem {
+    background-color: white;
+    width: 40px; 
+    height: 40px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border-color:white;
+    padding: 6px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  .sidemenu{
+    position: fixed;
+    top: 160px;
+    right: 30px;
+  }
+  .sidebutton:hover{
+    background-color: #ededed;
+  }
+  .sidebutton{
+    background-color: white;
+    display: inline-block;
+    width: 40px; 
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    vertical-align: top;
+    border-color:white;
+    padding: 6px;
+    z-index: 3000;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  @keyframes showside {
+    from {width: 0px;}
+    to {width: 380px;}
+  }
+  @keyframes toggleside {
+    from {width: 380px;}
+    to {width: 0px;}
+  }
+  .sidecontent{
+    display: inline-block;
+    width: 380px;
+    font-size: 16px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 25px;
+    border-color:white;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  .sidecontent>p{
+    line-height: 40px;
+  }

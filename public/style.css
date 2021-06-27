@@ -1,0 +1,27 @@
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+p {
+	margin: 0 !important;
+}
+
+div {
+	box-sizing: border-box;
+}
+@media (min-width: 1440px){
+	.modal-lg {
+	  max-width: 1200px !important;
+  }
+  }
+@media (min-width: 1440px){
+	.modal-lg {
+	  max-width: 1200px !important;
+	}
+  }	
+@media (min-width: 992){
+	.modal-lg {
+	  max-width: 900px !important;
+	}
+  }

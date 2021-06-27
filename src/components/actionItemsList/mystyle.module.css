@@ -1,0 +1,16 @@
+.search {
+  border-bottom: 1px solid #000000;
+  border-Top: 1px solid #FFFFFF;
+  border-Left: 1px solid #FFFFFF;
+  border-Right: 1px solid #FFFFFF;
+  box-shadow: 0 1px 0 0 #000000;
+  margin-top:10px;
+  margin-Left:8px;
+  width: 64%;
+  Font-Size:14px;
+  }
+  .searchicon {
+    margin-Left:18px;
+    }
+
+  

@@ -1,0 +1,211 @@
+
+  .previewinput {
+    width:220px;
+    font-size: 70px;
+    margin-left: 50px;
+    margin-top: 5px;
+    position: absolute; 
+  }
+  /* .form {
+    width:100%;
+    font-size: 50px;
+    margin-left: 40px;
+    position: absolute; 
+  } */
+  .preview {
+    margin-top: -10px;
+    font-size: 40px;
+    width:150px;
+    /* margin-left: 100px;
+    position: absolute;  */
+  }
+  .previewedit {
+    font-size: 40px;
+    width:150px;
+    margin-left: 255px;
+    margin-top:-5px;
+    position: absolute; 
+  }
+  .previewcopy {
+    margin-top:-2px;
+    font-size: 35px;
+    width:150px;
+    margin-left:300px;
+    position: absolute; 
+  }
+  .previewdelete {
+    margin-top:-5px;
+    font-size: 40px;
+    width:150px;
+    margin-left:348px;
+    position: absolute; 
+  }
+  .previewbuttoncol {
+    width:100px;
+  } 
+  .previewdropcol {
+    width:100px;
+    margin-left:150px;
+    position: absolute;
+  }
+
+  .previewbutton {
+    background-color: #79d58f;
+    font-size:16px;
+    width:140px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #79d58f;
+    margin-left: 60px;
+  } 
+  .previewbutton:hover{
+    background-color: #30db58;
+    font-size:17px;
+    border-color: #30db58;
+    border-width: 3px;
+    cursor: pointer;
+  }
+  .previewdrop {
+    background-color:white;
+    font-size:15px;
+    width:150px;
+    height: 40px;
+    color:black;
+    /* height: 40px;
+    border-radius: 10px;
+    */
+    margin-left: 80px;
+    border-radius: 10px;
+    border-color:white;
+  }
+  .previewset {
+    margin-left:250px
+    /*position: absolute;  */
+  }
+  .previewques {
+    margin-left: -90px;
+  }
+  .edit {
+    background-color: white;
+    width: 40px; 
+    height: 40px;
+    margin-top:8px;
+    border-radius: 5px;
+    border-color:white;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  .copy {
+    background-color: white;
+    width: 40px; 
+    height: 40px;
+    margin-top:5px;
+    margin-left:2px;
+    border-radius: 5px;
+    border-color:white;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  .setting {
+    background-color: white;
+    width: 40px; 
+    height: 40px;
+    /* margin-top:5px; */
+    margin-left:2px;
+    border-radius: 5px;
+    border-color:white;
+    padding: 6px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  .help {
+    background-color: white;
+    width: 40px; 
+    height: 40px;
+    /* margin-top:5px; */
+    margin-left:2px;
+    border-radius: 5px;
+    border-color:white;
+    padding: 6px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  .toolbar_btn{
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  .scheduledropdown button{
+    width: 250px; 
+    padding: 12px 20px;
+    text-align: left;
+    border-color: #ececec;
+  }  
+  .scheduledropdown button::after{
+    margin-left: 105px;
+  }  
+  .scheduledropdown button:hover{
+    background-color: white;
+    color: #3e3e3e;
+    border-color: #3e3e3e;
+  }
+  .weekdropdown button{
+    width: 180px; 
+    padding: 12px 20px;
+    text-align: left;
+    border-color: #ececec;
+  }  
+  .weekdropdown button::after{
+    margin-left: 45px;
+  }  
+  .weekdropdown button:hover{
+    background-color: white;
+    color: #3e3e3e;
+    border-color: #3e3e3e;
+  } 
+  .dayselected{
+    background-color: #5ea9ff;
+    border: 1px;
+  }
+  .zoom{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+  .zoomitem {
+    background-color: white;
+    width: 40px; 
+    height: 40px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border-color:white;
+    padding: 6px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  .sidemenu{
+    position: fixed;
+    top: 160px;
+    right: 30px;
+  }
+  .sidebutton{
+    background-color: white;
+    display: inline-block;
+    width: 40px; 
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    vertical-align: top;
+    border-color:white;
+    padding: 6px;
+    z-index: 3000;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  .sidecontent{
+    width: 300px;
+    display: inline-block;
+    width: 380px;
+    font-size: 16px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 25px;
+    border-color:white;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  }
+  .sidecontent>p{
+    line-height: 40px;
+  }
